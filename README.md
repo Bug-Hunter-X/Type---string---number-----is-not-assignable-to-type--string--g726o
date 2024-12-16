@@ -1,0 +1,2 @@
+# Type '(string | number)[]' is not assignable to type 'string'
+This TypeScript bug occurs when we pass an array as an argument to a function that expects a string.  This can be fixed by ensuring the argument passed matches the function's expected type.
